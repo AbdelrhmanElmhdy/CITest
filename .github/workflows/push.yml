@@ -1,0 +1,12 @@
+name: push
+
+on: push
+
+jobs:
+    first_job:
+        runs-on: macos-latest
+        steps:
+            - name: hello_world
+              run: echo "Hello, World!"
+              shell: bash
+    
